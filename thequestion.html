@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Question</title>
+    <link rel="stylesheet" href="css/thequestion.css">
+    <script src="js/radiochoice.js"></script>
+
+</head>
+<body>
+    <header>
+        <h1>A first of many.</h1>
+    </header>
+    <main>
+        <article class="billies-card">
+            <div class="valentines-day-card">
+                <input id="open" type="checkbox">
+                <label class="open" for="open"></label>
+              <div class="card-front">
+                <div class="note">Click to Open</div>
+              </div>
+                
+                <div class="card-inside">
+                  <div class="text-one">Will you be my
+                  </div>
+                  <div class="heart"></div>
+              </div>
+              </div>
+        </article>
+        <article class="questionaire">
+            <!-- <a href="snapchat://add/your_username"><button type="button">Start over!</button></a> -->
+            <label>
+                <input type="radio" name="choice" value="yes"> Yes
+              </label>
+              <label>
+                <input type="radio" name="choice" value="no"> No
+              </label>
+              <button onclick="handleChoice()">Submit</button>
+              <div id="result"></div>
+        </article>
+        <article class="start-over">
+            <a href="index.html"><button type="button">Start over!</button></a>
+        </article>
+    </main>
+
+    <footer>
+        <p>© Daniel Mulenga 2024</p>
+    </footer>
+</body>
+</html>

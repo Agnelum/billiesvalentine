@@ -1,0 +1,45 @@
+header {
+    padding: 10px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #f2acac;
+    min-height: 100vh;
+}
+
+main {
+    padding: 20%;
+}
+
+.tiger-gif {
+    text-align: center;
+}
+
+.click-me {
+    text-align: center;
+    margin: 10px;
+}
+
+footer {
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+
+    main {
+        padding: 20px; /* Reduce padding for smaller screens */
+        flex-grow: 1;
+        width: 90%;
+        margin: auto;
+    }
+
+    .tiger-gif img {
+        max-width: 100%; /* Ensure the image doesn't overflow its container */
+    }
+
+    .click-me {
+        margin: 10px auto; /* Center the button */
+    }
+}
